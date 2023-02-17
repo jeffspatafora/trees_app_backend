@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2023_02_17_010456) do
+ActiveRecord::Schema[7.0].define(version: 2023_02_17_011623) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
@@ -21,6 +21,7 @@ ActiveRecord::Schema[7.0].define(version: 2023_02_17_010456) do
     t.string "image"
     t.integer "max_height_in_feet"
     t.integer "max_age_in_years"
+    t.string "type"
   end
 
 end
