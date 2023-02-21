@@ -1,7 +1,7 @@
 ### Trees Index
-GET http://localhost:3000/trees
+GET http://localhost:3000/trees.json
 
-#### Trees Create
+### Trees Create
 POST http://localhost:3000/trees
 Content-Type: application/json
 
@@ -12,3 +12,6 @@ Content-Type: application/json
   "max_age_in_years": 5000,
   "kind": "pine"
 }
+
+### Tree Show
+GET http://localhost:3000/trees/3.json

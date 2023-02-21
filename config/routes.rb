@@ -6,4 +6,5 @@ Rails.application.routes.draw do
 
   get "/trees" => "trees#index"
   post "/trees" => "trees#create"
+  get "/trees/:id" => "trees#show"
 end

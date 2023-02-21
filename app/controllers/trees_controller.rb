@@ -18,4 +18,11 @@ class TreesController < ApplicationController
     render json: tree.as_json
   end 
 
+  def show
+    tree = Tree.find_by(id: params[:id])
+    render json: tree.as_json
+  end
+  
+  
+
 end
