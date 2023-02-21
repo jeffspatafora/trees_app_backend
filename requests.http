@@ -1,2 +1,14 @@
 ### Trees Index
 GET http://localhost:3000/trees
+
+#### Trees Create
+POST http://localhost:3000/trees
+Content-Type: application/json
+
+{
+  "name": "great basin bristlecone pine",
+  "image": "https://www.ambius.com/blog/wp-content/uploads/2015/11/Bristlecone-3.jpg",
+  "max_height_in_feet": 75,
+  "max_age_in_years": 5000,
+  "kind": "pine"
+}

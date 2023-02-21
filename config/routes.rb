@@ -5,4 +5,5 @@ Rails.application.routes.draw do
   # root "articles#index"
 
   get "/trees" => "trees#index"
+  post "/trees" => "trees#create"
 end
